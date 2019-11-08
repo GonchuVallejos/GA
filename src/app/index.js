@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
-import { render } from 'react-dom'; 
+import React from 'react';
+import { render } from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-class App extends Component {
-    render() {
-        return(
-                <h1>Holiii</h1>
-        )
-    }
-}
+// Routes
+import AppRoutes from './Routes.js';
 
-render (<App/>, document.getElementById('app'))
+//Assets
+import './index.css';
+
+render(<Router> <AppRoutes /> </ Router> ,document.getElementById('root'));

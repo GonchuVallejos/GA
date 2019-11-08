@@ -1,0 +1,17 @@
+.Formulario {
+    text-align: justify;
+}
+
+.Referencia {
+    color: #801A1C;
+}
+
+.Obligatorio {
+    display: none;
+    color: #801A1C;
+}
+
+.g-recaptcha {
+    background-color: #801A1C;
+    color: white;
+}

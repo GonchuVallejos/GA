@@ -1,0 +1,36 @@
+.navbar{
+    width: 100%;
+    position: top;
+    height: 70px;
+    z-index: 11;
+    background-color: #801c1a;
+    box-shadow: 0px 3px 20px #00000087;
+}
+
+.imagen-logo img{
+    height: 70px;
+    top: 2px;
+    position: relative;
+}
+
+.dropdown :hover{
+    color: white;
+}
+
+.dropdown-menu{
+    background-color: rgb(221, 221, 221);
+    border: rgba(255, 254, 254, 0);
+}
+
+.dropdown-menu :hover{
+    background-color: #801c1a;
+}
+
+.dropdown-menu :active{
+    background-color: rgb(221, 221, 221);
+    border: rgba(255, 254, 254, 0);
+}
+
+.navbar-collapse{
+    background-color:  #801c1a;
+}

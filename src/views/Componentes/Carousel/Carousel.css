@@ -1,0 +1,97 @@
+.carousel {
+    position: relative;
+}
+.carousel-item{
+      height: 65vh;
+      min-height: 300px;
+      background: no-repeat center center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: 100%;
+  }
+
+  #carousel-info
+  {    
+      position: absolute;
+      z-index: 100;
+      max-width: 30%;
+      color: #fff;
+      background: rgba(0,0,0,0.5);
+      height: 80px;
+      left:0;
+      top: 80%;
+      right: 5%;
+      padding-top: 1em;
+  }
+  
+  .imagen{
+      position: absolute; top: -30%;
+  }
+  
+  #logo-container
+{    
+    position: absolute;
+    z-index: 100;
+    max-width: 30%;
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    height: 300px;
+    top: 80%;
+    right: 5%;
+    padding-top: 1em;
+}
+
+#logo-container h2
+{
+    font-size: 1.5em;
+    font-weight: lighter;
+    line-height: 1.5;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 1em;
+}
+
+#logo-container img.logo
+{
+    width: 220px;
+}
+
+
+
+.border-important {
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 20px 20px;
+    border: 5px solid #ffffff;
+    border-radius: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #801A1C;
+}
+.text-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    /*font-family: 'Roboto Slab',serif;*/
+}
+.number-title {
+    font-size: 30px;
+    line-height: 25px;
+    font-weight: 900;
+}
+.border-important hr {
+    border-width: 3px;
+    background-color: white;
+}
+
+.sub-title {
+    border-top: 1px dashed #ffffff;
+    color: #ffffff;
+    font-style: italic;
+    margin: 15px auto 0px;
+    padding-top: 10px;
+    text-align: center;
+    width: 420px;
+}
